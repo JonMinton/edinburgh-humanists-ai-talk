@@ -455,27 +455,81 @@ The question for AI is not "will the pie grow?" — it almost certainly will. Th
 
 ---
 
-## Labour {.smaller}
+## Polanyi's double movement {.smaller}
 
-The honest summary:
+In *The Great Transformation* (1944), Karl Polanyi argued that every wave of market commodification provokes a **counter-movement** — society defending itself.
+
+:::: {.columns}
+::: {.column width="50%"}
+**First movement**
+
+Land, labour, and money treated as "fictitious commodities" — things bought and sold that were never really produced for the market.
+:::
+::: {.column width="50%"}
+**Second movement**
+
+Factory acts. Trade unions. The welfare state. Financial regulation. A century of pushback — each battle specific to what had been commodified.
+:::
+::::
+
+The commodification and the counter-movement are not separate stories. They are one story.
+
+---
+
+## Physical labour, then cognitive labour {.smaller}
+
+```{mermaid}
+%%| fig-align: center
+flowchart LR
+    subgraph Physical["Physical labour (19th–20thC)"]
+        direction TB
+        P1["Commodify<br/>bodily effort"] --> P2["Bodily harm<br/>and immiseration"]
+        P2 --> P3["Factory acts,<br/>unions,<br/>welfare state"]
+    end
+    subgraph Cognitive["Cognitive labour (21stC)"]
+        direction TB
+        C1["Commodify<br/>credentialed cognition"] --> C2["Credential<br/>devaluation,<br/>status threat"]
+        C2 --> C3["IP expansion,<br/>licensing,<br/>regulatory capture?"]
+    end
+```
+
+The first movement has a new shape. The second movement will, too.
+
+---
+
+## The decommodification moat {.smaller}
+
+Polanyi's "labour" was, implicitly, *bodily* labour. AI extends the same logic to a domain he did not consider — the outputs of **credentialed cognition**.
+
+The architecture of professionalisation — medical boards, bar associations, chartered statuses, doctoral requirements — was built to create *artificial scarcity* around cognitive labour, protecting it from raw market logic.
+
+AI does not just commodify mental labour. It attacks the **decommodification mechanisms** that the professional class built over two centuries.
+
+> Not like factory workers facing a new machine. Like factory workers facing a new machine that also dissolves the union, simultaneously.
+
+---
+
+## Labour — the first movement, close up {.smaller}
+
+The commodification of cognitive labour, as it actually arrives:
 
 - Some work will be *amplified* — clinicians, researchers, teachers, carers.
 - Some work will be *displaced* — much of what happens in front of a keyboard today.
 - Some work will be *created* that does not yet have a name.
 
-History says the second is fast and the third is slow. The gap between them is where policy matters most.
+History says the second is fast and the third is slow. The gap between them is where the counter-movement is fought.
 
 ---
 
-## Inequality {.smaller}
+## Inequality — who captures the surplus {.smaller}
 
-The technology is not evenly distributed, and the benefits are unlikely to be.
+Kaldor-Hicks allows the pie to grow without anyone being compensated. In the first movement, that is roughly what happens.
 
 - **Who owns the models** shapes who captures the surplus.
 - **Who can use them well** shapes who benefits at work.
 - **Who can afford to wait** shapes who survives the transition.
 
-None of these are technical questions. All of them are political.
+The counter-movement has not yet chosen its form — broad social protection, or *guild restoration* dressed as protection. Both are possible. The political work is distinguishing them.
 
 ---
 
@@ -488,6 +542,20 @@ Problems that have been stuck for decades — protein folding, weather predictio
 This is not speculation. AlphaFold alone has already changed biology.
 
 If we want to enumerate what AI is *for*, this is where to look first.
+
+---
+
+## A note on us {.smaller}
+
+An uncomfortable observation.
+
+The groups most audibly sceptical of AI — journalists, academics, illustrators, junior lawyers, cultural workers — are disproportionately the groups the technology most directly threatens.
+
+**Peter Turchin** calls this population *elite aspirants*: people who invested in credentials precisely because credentials were the moat.
+
+It is worth asking whether some of our scepticism is analysis, and some of it is a class defending its ground. Both can be true at once.
+
+A question for all of us in the room. Myself included.
 
 ---
 
@@ -504,6 +572,23 @@ The technology changes the cost structure. It does not change the list.
 ---
 
 # Part 6 · A borrowed imaginary {.center}
+
+---
+
+## The quieter left tradition {.smaller}
+
+AI enthusiasm has become culturally coded as *right*: Silicon Valley, e/acc, crypto-adjacent, Musk-adjacent.
+
+That coding is historically anomalous. There is a **left tradition of technological abundance**:
+
+- Keynes, *Economic Possibilities for our Grandchildren* (1930).
+- Srnicek & Williams, *Inventing the Future* (2015).
+- Bastani, *Fully Automated Luxury Communism* (2019).
+- Iain M. Banks' *Culture* — described by its author as explicitly communist.
+
+The argument: automation is the **material precondition** for liberation from wage labour. The quarrel is not with the technology. It is with the ownership structure.
+
+Currently underrepresented. Not for the first time.
 
 ---
 
