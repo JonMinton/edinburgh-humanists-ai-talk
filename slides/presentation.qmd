@@ -196,45 +196,50 @@ These are not bugs in the training data. They are consequences of the training s
 
 ---
 
-## The loud faces {.smaller}
+## Downing Street, May 2023 {.smaller}
 
-:::: {.columns}
-::: {.column width="50%"}
-![Sam Altman (OpenAI)](images/blog/sam-altman.jpg){width=80%}
+![Pictured: Rishi Sunak with Dario Amodei (Anthropic), Demis Hassabis (DeepMind), and Sam Altman (OpenAI).](images/blog/downing-street-ai-2023.jpg){width=78%}
 
-**Sam Altman**
-:::
-::: {.column width="50%"}
-> **TODO:** sourced portrait of **Elon Musk (xAI)** — cc-licensed or public-domain.
-
-**Elon Musk**
-:::
-::::
-
-If you have only heard of two AI figures, it is almost certainly these two.
-
-Their companies are valuable. Their public personas are loud. Their products have shipped.
-
-They are not the whole field.
+When the British Prime Minister wanted the serious AI conversation of 2023, he invited three people.
 
 ---
 
-## The quieter builders {.smaller}
+## Three builders {.smaller}
+
+- **Demis Hassabis** — neuroscientist, chess prodigy, games designer. Founded DeepMind. Nobel Prize in Chemistry, 2024, for AlphaFold.
+- **Dario Amodei** — physicist by training. Left OpenAI over safety disagreements to co-found **Anthropic**, the makers of Claude.
+- **Sam Altman** — founder-CEO of OpenAI. A builder *and* the most recognisable public face of AI.
+
+Different personalities. One common fact: they build.
+
+---
+
+## The one who wasn't {.smaller}
 
 :::: {.columns}
-::: {.column width="50%"}
-![Demis Hassabis (DeepMind)](images/blog/demis-hassabis.jpg){width=80%}
-
-**Demis Hassabis** — neuroscientist, chess prodigy, games designer. Nobel Prize in Chemistry, 2024, for AlphaFold.
+::: {.column width="45%"}
+![Elon Musk, 2018](images/blog/elon-musk-2018.jpg){width=90%}
 :::
-::: {.column width="50%"}
-> **TODO:** sourced portrait of **Dario Amodei (Anthropic)** — cc-licensed or public-domain.
+::: {.column width="55%"}
+**Elon Musk** was running xAI. He was not in the room.
 
-**Dario Amodei** — physicist by training. Left OpenAI over safety disagreements to co-found Anthropic, the makers of Claude.
+xAI has substantial resources. It has not, so far, featured in the serious AI conversation the way the other three companies have.
+
+The public faces of AI are not quite who the headlines suggest.
 :::
 ::::
 
-If you want to understand where AI is going, these are the people to read.
+---
+
+## Where this leaves the field {.smaller}
+
+Four figures. Three distinct modes:
+
+- **Hassabis** and **Amodei** — quieter builders. Research-first, safety-vocal. The people to read if you want to understand where AI is going.
+- **Altman** — builder *and* louder figurehead. Serious enough to be at Downing Street; also reliably in the news.
+- **Musk** — louder still. Increasingly *figurehead*, decreasingly *builder*.
+
+Watch the last two if you want the public conversation. Read the first two if you want the work.
 
 ---
 
@@ -535,6 +540,14 @@ The things worth being sceptical about now are:
 - Whether our imaginaries are wide enough to build for.
 
 Thank you.
+
+---
+
+## Image credits {.smaller}
+
+- **Downing Street meeting** (May 2023): Simon Walker / No 10 Downing Street. CC BY 2.0, via Wikimedia Commons.
+- **Elon Musk** (2018): Debbie Rowe, via Wikimedia user Duncan.Hull. CC BY-SA 4.0, via Wikimedia Commons.
+- Other photographs and figures: Jon Minton's earlier blog and talk materials.
 
 ---
 
