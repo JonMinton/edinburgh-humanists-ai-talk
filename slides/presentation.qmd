@@ -410,9 +410,9 @@ The answer is not that the technology has been oversold. (Maybe 'missold' is mor
 
 ![](images/trash-icon-evolution.png){width=72%}
 
-For many people, the latest "AI" is just where Microsoft puts your data now.
+For many people, the latest "AI" is just what Microsoft/Google/Meta/Etc is trying to force on you now, whether you asked for it or not. 
 
-That perception is wrong. It is also entirely earned.
+My perspective: They're trying to 'sell it' as a really valuable add-on, but not really selling the value. Instead I think the value comes from seeing it as at the core of a very different way of working, not an incremental step from the status quo.
 
 ---
 
@@ -446,17 +446,41 @@ The pattern repeats. It is repeating now.
 
 ---
 
-## What this looks like from the outside {.smaller}
+## Why the Industrial Revolution took around a century {.smaller}
 
-Inside firms that have rebuilt processes around agentic AI, outputs per person are climbing fast.
+The marginal benefit of a new tech to an old factory was often low or negative.
 
-Outside those firms, people observe:
+Only if the factory were built from scratch around the new tech do the main benefits accue.
 
-- Chatbots that still hallucinate.
-- Procurement processes that still take six months.
-- Meetings that still run long.
+But this requires a new mindset, set of ideas about work, and set of skills and expertise.
 
-Both things are true. The gap between them is the story.
+
+---
+
+## Being a computer, then having one {.smaller}
+
+Until the late 1960s, "**computer**" was a *job title*. Mostly women. NASA had hundreds. Bletchley Park ran on them. Lyons' tea-shop logistics — the world's first business computer, LEO, built right here — were calculated by them first.
+
+The shift from *being* a computer (a role) to *having* a computer (a tool) took decades, not years.
+
+The new role required different skills:
+
+- Knowing how to **specify** a calculation precisely.
+- Knowing **enough about the machine** to recognise when it had silently done the wrong thing.
+
+The hardware mattered less than the mental model around it. Same lesson as the steam loom. Same lesson, perhaps, as agentic AI.
+
+---
+
+## How it could go {.smaller}
+
+**Optimistic.** The women who had been computers turned out, often, to be the best people to *use* computers. Their intuition for what a calculation was, and where it could go wrong, transferred almost directly. Continuity, not displacement.
+
+**Pessimistic.** Their managers often saw it as either-or — replace many computer-roles with a few computer-user-roles, and pocket the difference. Continuity forgone.
+
+**Jevonsian.** When the steam engine made coal use more efficient, total coal use *rose*: cheaper energy unlocked uses no-one had imagined. Capability gains often expand demand faster than they raise productivity per worker, and net work grows. ATMs led to *more* bank branches, not fewer.
+
+Which of the three plays out for AI is, in part, a choice. The choosing is happening now.
 
 ---
 
