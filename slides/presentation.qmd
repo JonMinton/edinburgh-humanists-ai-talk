@@ -209,8 +209,6 @@ Watch the last two if you want the public conversation. Read the first two if yo
 
 ## What AlphaFold actually did {.smaller}
 
-:::: {.columns}
-::: {.column width="55%"}
 A 50-year-old open problem in biology: given a protein's amino-acid sequence, predict the 3D shape it folds into.
 
 DeepMind's **AlphaFold** (2020) solved it well enough to be useful.
@@ -218,13 +216,11 @@ DeepMind's **AlphaFold** (2020) solved it well enough to be useful.
 By 2024 the method had catalogued ≈200 million protein structures — a once-in-a-generation gift to biology, medicine, and drug discovery.
 
 The 2024 Nobel Prize in Chemistry followed.
-:::
-::: {.column width="45%"}
-![AlphaFold predicted structure](images/blog/images_large_fg1.jpeg){width=95%}
-:::
-::::
 
 This is the AI story that ought to have led the news. It mostly did not.
+
+<!-- TODO: source a real protein-structure figure (DeepMind / Nature, with proper attribution) if a visual is wanted here. -->
+
 
 ---
 
@@ -261,6 +257,27 @@ An **agent** does a job.
 Concretely: an AI that can read files, run tools, write and test its own code, check whether the result is correct, and iterate — without asking permission between each step.
 
 The word is new. The behaviour is newer still.
+
+---
+
+## A bridge between cloth and wire {.smaller}
+
+:::: {.columns}
+::: {.column width="40%"}
+![](images/blog/images_large_fg1.jpeg){width=95%}
+:::
+::: {.column width="60%"}
+Harlow's monkeys had two mothers and could not combine them. They clung to cloth and reached for wire.
+
+Agentic AI is a single arrangement that does both at once.
+
+The fluent **cloth-mother** chatbot — language, plausibility, conversation — sits inside a **wire-mother** scaffold of tools, tests, and ground-truth feedback.
+
+The talker keeps talking. The doer keeps the talker honest.
+
+This is not a new model. It is a new combination.
+:::
+::::
 
 ---
 
@@ -709,7 +726,7 @@ Thank you.
 ## Image credits {.smaller}
 
 - **Recycle-bin / Copilot icon-evolution meme**: anonymous internet meme, widely circulated; reproduced under fair dealing for criticism and review.
-- **AlphaFold predicted structure**: from the published AlphaFold literature (DeepMind; Jumper et al., *Nature*, 2021); reproduced for educational discussion.
+- **Harlow rhesus-monkey infant** (clinging to cloth-mother, reaching for wire-mother): standard image from Harlow's published surrogate-mother experiments (1958–60), reproduced for educational discussion.
 - **Demis Hassabis portrait**: press photograph, carried over from earlier talk materials.
 - **Hype-vs-capability curve**: Jon Minton, [jonminton.github.io/jon-blog](https://jonminton.github.io/jon-blog/).
 - **Valley of death**, **Kaldor-Hicks**, and the **two traditions** schematic: Jon Minton's own work for this talk and earlier writing.
@@ -722,7 +739,7 @@ Thank you.
 
   Verify before public sharing:
     - Exact provenance/licence of the Hassabis press photo.
-    - Exact source/citation for the AlphaFold figure (file is images_large_fg1.jpeg, suggestive of a journal CDN path).
+    - Exact source paper for the Harlow rhesus-monkey figure (file is images_large_fg1.jpeg).
 -->
 
 
