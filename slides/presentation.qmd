@@ -130,6 +130,9 @@ The monkeys drank from wire and clung to cloth. Comfort and function came apart.
 
 *(The experiments were, by modern standards, cruel. The finding was important.)*
 
+:::
+::::
+
 ---
 
 ## Two traditions of AI {.smaller}
@@ -432,7 +435,13 @@ The gains were real. The losses arrived first. A generation was spent in between
 
 ---
 
-## The valley of death {.smaller}
+## The valley of death {.center}
+
+![](images/valley_of_death.png){.r-stretch fig-align="center"}
+
+---
+
+## The valley of death — what it traps {.smaller}
 
 Incumbents face a particular trap with every disruptive technology:
 
@@ -491,6 +500,8 @@ Work, inequality, science, self
 ---
 
 ## Kaldor-Hicks, quietly {.smaller}
+
+![](images/kaldor_hicks.png){width=70%}
 
 Economists have a quiet little idea called the **Kaldor-Hicks criterion**:
 
