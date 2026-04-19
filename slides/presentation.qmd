@@ -351,9 +351,11 @@ The agentic loop weaves both together.
 
 My father died in late 2024. He left behind a collection of roughly **2,400 books, CDs and DVDs**, carefully catalogued on LibraryThing over many years.
 
-I had the export. I did not have the time.
+I had the export file from LibraryThing. Not a very human-accessible file format. I wanted to: 
 
-Sorting, pricing, and — more importantly — *understanding* what was there was a weeks-of-evenings job. I was not going to do it.
+1) Know the market value of items in the collection. (If my mother decides to sell some of it, what to try selling first.)
+
+2) Know more about my father's interests and preoccupations. I know he liked Sci-Fi a lot, but it would be good to know what kinds of books he had on different kinds of Sci-Fi scenarios (for example).
 
 ---
 
@@ -400,7 +402,17 @@ It is a genuinely new mode of work. It is also the shape of the story for the re
 
 If capability has climbed this much, why do most people — including most organisations — still feel that nothing has really changed?
 
-The answer is not that the technology has been oversold. The answer is more interesting than that.
+The answer is not that the technology has been oversold. (Maybe 'missold' is more correct.) The answer is more interesting than that.
+
+---
+
+## How AI looks from the outside {.smaller}
+
+![](images/trash-icon-evolution.png){width=72%}
+
+For many people, the latest "AI" is just where Microsoft puts your data now.
+
+That perception is wrong. It is also entirely earned.
 
 ---
 
@@ -655,6 +667,7 @@ Thank you.
 
 - **Downing Street meeting** (May 2023): Simon Walker / No 10 Downing Street. CC BY 2.0, via Wikimedia Commons.
 - **Elon Musk** (2018): Debbie Rowe, via Wikimedia user Duncan.Hull. CC BY-SA 4.0, via Wikimedia Commons.
+- **Recycle-bin / Copilot icon-evolution meme**: anonymous internet meme, widely circulated; reproduced under fair dealing for criticism and review.
 - Other photographs and figures: Jon Minton's earlier blog and talk materials.
 
 ---
