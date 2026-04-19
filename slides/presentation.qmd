@@ -708,10 +708,23 @@ Thank you.
 
 ## Image credits {.smaller}
 
-- **Downing Street meeting** (May 2023): Simon Walker / No 10 Downing Street. CC BY 2.0, via Wikimedia Commons.
-- **Elon Musk** (2018): Debbie Rowe, via Wikimedia user Duncan.Hull. CC BY-SA 4.0, via Wikimedia Commons.
 - **Recycle-bin / Copilot icon-evolution meme**: anonymous internet meme, widely circulated; reproduced under fair dealing for criticism and review.
-- Other photographs and figures: Jon Minton's earlier blog and talk materials.
+- **AlphaFold predicted structure**: from the published AlphaFold literature (DeepMind; Jumper et al., *Nature*, 2021); reproduced for educational discussion.
+- **Demis Hassabis portrait**: press photograph, carried over from earlier talk materials.
+- **Hype-vs-capability curve**: Jon Minton, [jonminton.github.io/jon-blog](https://jonminton.github.io/jon-blog/).
+- **Valley of death**, **Kaldor-Hicks**, and the **two traditions** schematic: Jon Minton's own work for this talk and earlier writing.
+
+<!--
+  Orphaned credits removed (images no longer in the deck):
+    - Downing Street meeting (Simon Walker / No 10, CC BY 2.0).
+    - Elon Musk 2018 (Debbie Rowe via Duncan.Hull, CC BY-SA 4.0).
+  Restore here if those slides return.
+
+  Verify before public sharing:
+    - Exact provenance/licence of the Hassabis press photo.
+    - Exact source/citation for the AlphaFold figure (file is images_large_fg1.jpeg, suggestive of a journal CDN path).
+-->
+
 
 ---
 
