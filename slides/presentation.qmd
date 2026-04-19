@@ -201,7 +201,7 @@ Four figures. Three distinct modes:
 
 - **Hassabis** (Deepmind) and **Amodei** (Anthropic) — quieter builders. Research-first, safety-vocal. The people to read if you want to understand where AI is going.
 - **Altman** (OpenAI) — builder *and* louder figurehead. Serious enough to be at Downing Street; also reliably in the news.
-- **Musk** (Spurned Deepmind attempted investor; seed investor in OpenAI (to spite DeepMind/Hassabis); spurned OpenAI; now founder of x/Grok — louder still. Increasingly *figurehead*, decreasingly *builder*.
+- **Musk** (Spurned Deepmind attempted investor; seed investor in OpenAI (to spite DeepMind/Hassabis); spurned OpenAI; now founder of x/Grok) — louder still. Increasingly *figurehead*, decreasingly *builder*.
 
 Watch the last two if you want the public conversation. Read the first two if you want the work.
 
@@ -238,7 +238,7 @@ The gap between the two is where this talk lives.
 
 ## A handover {.smaller}
 
-So: AI is older than ChatGPT, stranger than ChatGPT, and — in the hands of its quieter builders — considerably more interesting than ChatGPT.
+So: AI is older than ChatGPT, stranger than ChatGPT, and — in the hands of its quieter builders — considerably more interesting.
 
 Next: what has been climbing quietly, and what "**agentic**" means in practice.
 
@@ -306,15 +306,19 @@ This is why the first big speed-ups have landed in tasks with **verifiable outpu
 
 --- 
 
-## Chain-of-thought and Agentic AI: Doing *through* thinking
+## Chain-of-thought and Agentic AI {.smaller}
+
+*Doing through thinking.*
 
 Whereas previously there was a thinker/doer choice, now the gap has closed. 
 
 To do ever more, AI agents need to *think* and plan more carefully. 
 
-This involves telling AI chatbots to 'talk to themselves'. A process known as chain-of-thought (CoT).
+This involves prompting AI chatbots to 'talk to themselves'. A process known as **chain-of-thought (CoT)**.
 
-*RAG to follow: knowing what you do not know.*
+::: {.notes}
+RAG to follow: knowing what you do not know.
+:::
 
 ---
 
@@ -408,7 +412,7 @@ And get *considered* answers, drawn from across 2,400 items. A window into someo
 
 ---
 
-## A name for it {.smaller}
+## Cognitive centaurs {.smaller}
 
 The result is neither "AI did this" nor "I did this".
 
@@ -472,13 +476,13 @@ The pattern repeats. It is repeating now.
 
 ---
 
-## Why the Industrial Revolution took around a century {.smaller}
+## Why the Industrial Revolution took a century {.smaller}
 
-The marginal benefit of a new tech to an old factory was often low or negative.
+The marginal benefit of a *new* technology to an *old* factory was often low or even negative.
 
-Only if the factory were built from scratch around the new tech do the main benefits accue.
+Only if the factory was built **from scratch** around the new tech did the main benefits **accrue**.
 
-But this requires a new mindset, set of ideas about work, and set of skills and expertise.
+But this requires entirely new mindsets, ideas about work, and skills.
 
 
 ---
