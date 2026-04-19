@@ -294,13 +294,13 @@ To do ever more, AI agents need to *think* and plan more carefully.
 
 This involves telling AI chatbots to 'talk to themselves'. A process known as chain-of-thought (CoT).
 
-*Related to this: Retrieval Augmented Generation (RAG): Knowing what I do not know*
+*RAG to follow: knowing what you do not know.*
 
 ---
 
 ## System 1, System 2 {.smaller}
 
-Daniel Kahneman' gave us a familiar distinction':
+Daniel Kahneman's Thinking Fast and Slow:
 
 - **System 1** — fast, fluent, intuitive. The pattern-match.
 - **System 2** — slow, effortful, deliberate. The working-out.
