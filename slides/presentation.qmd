@@ -548,20 +548,28 @@ The commodification and the counter-movement are not separate stories. They are 
 
 ## Physical labour, then cognitive labour {.smaller}
 
+:::: {.columns}
+::: {.column width="50%"}
+**Physical labour (19th–20thC)**
+
 ```{mermaid}
-%%| fig-align: center
-flowchart LR
-    subgraph Physical["Physical labour (19th–20thC)"]
-        direction TB
-        P1["Commodify<br/>bodily effort"] --> P2["Bodily harm<br/>and immiseration"]
-        P2 --> P3["Factory acts,<br/>unions,<br/>welfare state"]
-    end
-    subgraph Cognitive["Cognitive labour (21stC)"]
-        direction TB
-        C1["Commodify<br/>credentialed cognition"] --> C2["Credential<br/>devaluation,<br/>status threat"]
-        C2 --> C3["IP expansion,<br/>licensing,<br/>regulatory capture?"]
-    end
+%%{init: {'theme':'default', 'themeVariables': {'fontSize': '18px', 'primaryColor': '#ffffff', 'primaryTextColor': '#111111', 'primaryBorderColor': '#333333', 'lineColor': '#888888'}}}%%
+flowchart TB
+    P1["Commodify<br/>bodily effort"] --> P2["Bodily harm<br/>and immiseration"]
+    P2 --> P3["Factory acts, unions,<br/>welfare state"]
 ```
+:::
+::: {.column width="50%"}
+**Cognitive labour (21stC)**
+
+```{mermaid}
+%%{init: {'theme':'default', 'themeVariables': {'fontSize': '18px', 'primaryColor': '#ffffff', 'primaryTextColor': '#111111', 'primaryBorderColor': '#333333', 'lineColor': '#888888'}}}%%
+flowchart TB
+    C1["Commodify<br/>credentialed cognition"] --> C2["Credential devaluation,<br/>status threat"]
+    C2 --> C3["IP expansion, licensing,<br/>regulatory capture?"]
+```
+:::
+::::
 
 The first movement has a new shape. The second movement will, too.
 
