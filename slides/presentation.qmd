@@ -52,7 +52,7 @@ How a disengaged sceptic started paying attention
 
 ---
 
-## Two years of shrug {.smaller}
+## 2022-2024: Chatbot Hype Souffle {.smaller}
 
 From ChatGPT's release in late 2022 to summer 2025, I did not pay close attention. From the distance I kept, the field looked like:
 
@@ -60,7 +60,7 @@ From ChatGPT's release in late 2022 to summer 2025, I did not pay close attentio
 
 That was enough to keep me from engaging — it was not enough to make me a committed sceptic. I had filed the whole thing under *over-promised, under-delivered* and moved on.
 
-Then, in a few months, three things happened.
+Then, from mid/end 2025: three things happened.
 
 ---
 
@@ -117,23 +117,18 @@ This is not "a chatbot hallucinates". This is something new. We will come back t
 
 ---
 
-## An experiment in comfort {.smaller}
+## An experiment in cruel choice architecture {.smaller}
 
 :::: {.columns}
 ::: {.column width="55%"}
 **Harry Harlow, 1950s.** Infant rhesus monkeys were offered two surrogate "mothers":
 
-- A **wire mother** that dispensed milk.
-- A **cloth mother** that did not.
+- A **wire mother** that dispensed milk (provision without comfort).
+- A **cloth mother** that did not (comfort without provision).
 
 The monkeys drank from wire and clung to cloth. Comfort and function came apart.
 
 *(The experiments were, by modern standards, cruel. The finding was important.)*
-:::
-::: {.column width="45%"}
-![Harlow's surrogate mothers](images/blog/harlow-surrogate-mothers.jpg){width=95%}
-:::
-::::
 
 ---
 
@@ -143,7 +138,7 @@ For most of its history, AI has split along the same line.
 
 :::: {.columns}
 ::: {.column width="50%"}
-**Wire-mother AI**
+**Wire-mother AI (Doers)**
 
 Function first.
 
@@ -154,7 +149,7 @@ Less fluent, more useful.
 Mostly **DeepMind** and its ancestors.
 :::
 ::: {.column width="50%"}
-**Cloth-mother AI**
+**Cloth-mother AI (Talkers)**
 
 Conversation first.
 
@@ -196,48 +191,14 @@ These are not bugs in the training data. They are consequences of the training s
 
 ---
 
-## Downing Street, May 2023 {.smaller}
-
-![Pictured: Rishi Sunak with Dario Amodei (Anthropic), Demis Hassabis (DeepMind), and Sam Altman (OpenAI).](images/blog/downing-street-ai-2023.jpg){width=78%}
-
-When the British Prime Minister wanted the serious AI conversation of 2023, he invited three people.
-
----
-
-## Three builders {.smaller}
-
-- **Demis Hassabis** — neuroscientist, chess prodigy, games designer. Founded DeepMind. Nobel Prize in Chemistry, 2024, for AlphaFold.
-- **Dario Amodei** — physicist by training. Left OpenAI over safety disagreements to co-found **Anthropic**, the makers of Claude.
-- **Sam Altman** — founder-CEO of OpenAI. A builder *and* the most recognisable public face of AI.
-
-Different personalities. One common fact: they build.
-
----
-
-## The one who wasn't {.smaller}
-
-:::: {.columns}
-::: {.column width="45%"}
-![Elon Musk, 2018](images/blog/elon-musk-2018.jpg){width=90%}
-:::
-::: {.column width="55%"}
-**Elon Musk** was running xAI. He was not in the room.
-
-xAI has substantial resources. It has not, so far, featured in the serious AI conversation the way the other three companies have.
-
-The public faces of AI are not quite who the headlines suggest.
-:::
-::::
-
----
 
 ## Where this leaves the field {.smaller}
 
 Four figures. Three distinct modes:
 
-- **Hassabis** and **Amodei** — quieter builders. Research-first, safety-vocal. The people to read if you want to understand where AI is going.
-- **Altman** — builder *and* louder figurehead. Serious enough to be at Downing Street; also reliably in the news.
-- **Musk** — louder still. Increasingly *figurehead*, decreasingly *builder*.
+- **Hassabis** (Deepmind) and **Amodei** (Anthropic) — quieter builders. Research-first, safety-vocal. The people to read if you want to understand where AI is going.
+- **Altman** (OpenAI) — builder *and* louder figurehead. Serious enough to be at Downing Street; also reliably in the news.
+- **Musk** (Spurned Deepmind attempted investor; seed investor in OpenAI (to spite DeepMind/Hassabis); spurned OpenAI; now founder of x/Grok — louder still. Increasingly *figurehead*, decreasingly *builder*.
 
 Watch the last two if you want the public conversation. Read the first two if you want the work.
 
@@ -321,6 +282,68 @@ When an agent can *run* the code, *read* the file, *query* the database — it g
 The LLM underneath still bluffs. The agentic loop around it does not have to.
 
 This is why the first big speed-ups have landed in tasks with **verifiable outputs**: software, maths, scientific workflows. Anywhere wrongness can be punished, agents get better. Anywhere it cannot, they remain fluent and confidently wrong.
+
+
+--- 
+
+## Chain-of-thought and Agentic AI: Doing *through* thinking
+
+Whereas previously there was a thinker/doer choice, now the gap has closed. 
+
+To do ever more, AI agents need to *think* and plan more carefully. 
+
+This involves telling AI chatbots to 'talk to themselves'. A process known as chain-of-thought (CoT).
+
+*Related to this: Retrieval Augmented Generation (RAG): Knowing what I do not know*
+
+---
+
+## System 1, System 2 {.smaller}
+
+Daniel Kahneman' gave us a familiar distinction':
+
+- **System 1** — fast, fluent, intuitive. The pattern-match.
+- **System 2** — slow, effortful, deliberate. The working-out.
+
+A standard large language model is, structurally, almost a pure System 1 device. It produces the next plausible word as quickly as a human produces an intuition.
+
+**The strawberry test.** Until very recently, asking a chatbot *"how many Rs are in 'strawberry'?"* reliably returned the answer **two**. Confidently. Wrongly.
+
+The model could not *see* the letters — it processes word-fragments (tokens), and its fluent intuition simply did not include the count. An LLM-shaped System 1 failure: confident, wrong, characteristically blind in a way the model itself cannot detect.
+
+---
+
+## Chain-of-thought as System 2 {.smaller}
+
+**Chain-of-thought** is an instruction to the model: *don't answer yet — write out your reasoning first.*
+
+The same architecture, run in System 2 mode.
+
+Ask the same strawberry question with chain-of-thought, and the model spells the word out — s-t-r-a-w-b-e-r-r-y — counts the Rs, and arrives at **three**. Same model. Different mode.
+
+The intuitions of LLMs and humans are *not the same*. Humans do not fail on letter counts; LLMs do not fail on the trolley problem. The contents of each System 1 differ — ours inherited from evolution and experience, theirs from text-prediction on a corpus.
+
+But the **structure** is analogous: a fast pattern-matching layer that bluffs, and a slow deliberative layer that — when invoked — can catch it.
+
+Agentic AI is, in part, a *forced System-2-isation* of LLMs.
+
+---
+
+## "What year is it?" — RAG and the unfrozen clones {.smaller}
+
+A useful metaphor.
+
+Each chat session with a large language model is, technically, a fresh **instance** of the model — and "instance" is the term the field actually uses.
+
+The instance wakes up knowing everything that was in its training data, and nothing that has happened since. It does not know the news. It does not know what year it is. It does not remember you.
+
+It is something like an *unfrozen clone* — identical at birth to every other instance, with no continuity to anything before or after.
+
+**Retrieval-augmented generation (RAG)** is how an instance learns to ask. It can reach out — to a search engine, a database, the files in front of it — and pull in what it does not, by itself, know.
+
+If chain-of-thought is a prosthesis for **reasoning**, RAG is a prosthesis for **knowing what you do not know**.
+
+The agentic loop weaves both together.
 
 ---
 
